@@ -11,7 +11,7 @@ var oculta = [];
 // Elemento html de la palabra
 var hueco = document.getElementById("palabra");
 // Contador de intentos
-var cont = 6;
+var cont = 9;
 // Botones de letras
 var buttons = document.getElementsByClassName('letra');
 // Boton de reset
@@ -104,7 +104,7 @@ function inicio() {
   generaPalabra();
   pintarGuiones(palabra.length);
   generaABC("a","z");
-  cont = 6;
+  cont = 9;
   document.getElementById("intentos").innerHTML=cont;
 }
 
